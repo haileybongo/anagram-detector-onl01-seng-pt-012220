@@ -12,7 +12,7 @@
      new_word = @word.split("")
      array.each do |word|
        letters = word.split("")
-       if (new_word.size == letters.size) && (new_word & letters == new_word) 
+       if (new_word.size == letters.size) && (new_word == letters) 
          match << letters.join
       else
       end
