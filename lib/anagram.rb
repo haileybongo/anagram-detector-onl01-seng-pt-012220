@@ -9,7 +9,7 @@
    
    def match(array)
      match = []
-     new_word = word.split("")
+     new_word = @word.split("")
      array.each do |word|
        letters = word.split("")
        if new_word.size == letters.size && new_word & letters == new_word 
